@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik+Beastly&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -12,5 +12,7 @@ li a:hover{
     text-decoration: underline;
 }
 
-
-/* Carousel CSS */
+/* nav pills colour */
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: red;
+}
